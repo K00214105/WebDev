@@ -1,0 +1,490 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    background-color: antiquewhite
+}
+
+
+/* Container */
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+
+@font-face {
+    font-family: GoboldBold;
+    src: url(GoboldBold.ttf);
+}
+
+
+@font-face {
+    font-family: PRIMETIME;
+    src: url(PRIMETIME.ttf);
+}
+
+
+h1, h2, h3, strong{
+  font-family: PRIMETIME;  
+}
+
+
+footer p{
+    font-family: GoboldBold;
+}
+
+
+p.moreInfo{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-decoration: none; 
+}
+
+
+p.moreInfo a{
+    color: white;
+    text-decoration: none;
+     padding:5px 20px 5px 20px;
+     background-color: #6B9988;
+}
+
+
+p.moreInfo a:hover{
+    background-color:#91062F;
+    color: white;
+}
+
+
+h3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #91062F;
+    color: white;
+}
+
+
+/* Header */
+header{
+    background:#6B9988;
+    color:#ffffff;
+    min-height:70px;
+    margin-bottom:  60px
+}
+
+
+header #logo{
+    float:left;
+}
+
+
+nav a{
+    color:green;
+    background-color: white;
+    padding: 0 20px 0 20px;  
+    margin-bottom: 20px;
+    float: right;
+    clear: both;
+    width: 50px;
+    text-align-last: center; 
+}
+
+
+nav a:hover{
+    background-color: gainsboro;
+}
+
+
+header img{
+    width: 30%;
+    height: 120px;
+    padding: 20px 0 15px 0;
+}
+
+
+#left{
+    float: right;
+    width: 50%
+}
+
+
+/* Banner */
+#banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+.white{
+    background: white;
+}
+
+
+iframe {
+    display: block;
+    width:100%;   
+    height: 900px;
+    padding: 0;
+    max-width: 1600px;
+    border:none;
+    overflow:hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+/* Boxes */
+.boxes{ 
+    margin-bottom: 40px;  
+    margin-top: 40px;
+}
+
+
+.boxes .box{
+    float:left;
+    text-align: center;
+    width:31%;
+    margin-left: 2%;
+    background-color: white;
+    margin-bottom: 1em;
+}
+
+
+.boxes .box p{
+    padding: 0 2em;
+    text-align: left;
+}
+
+
+.box h3{
+    margin: 0;
+}
+
+
+.page-title{
+    padding: 8px;
+    background:#35424a;
+    color:#ffffff;
+    padding-left: 25px;
+}
+
+
+.aboutImg {
+    width: 90%;
+   
+    padding-bottom: 20px;
+}
+ 
+
+.persona{
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+}
+
+
+.mood{
+    width: 90%;
+    padding-bottom: 20px;
+}
+
+
+.moodBoard{
+    text-align: center;   
+    background-color: white;
+    padding: 15px;
+}
+
+
+.proto{
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: white;
+    padding: 15px;
+}
+
+
+.protoImg{
+    padding-bottom: 20px;
+    width: 90%
+}
+
+
+footer{
+  padding:30px;
+  color:#ffffff;
+  background-color:#91062F;
+  text-align: center;
+  clear: both; 
+}
+
+
+footer img{
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+footer div ul li{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.infoText{
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+
+footer div ul{
+    padding-left: 0;
+}
+
+
+footer div {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.foottext{
+    clear: both;
+}
+
+
+.footer_container1,.footer_container2{
+    float: left;
+}
+
+
+/* Media Queries Large*/
+@media(max-width: 1200px){
+    
+    .boxes .box{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+
+    .box{
+        margin: 5px;
+        padding-bottom: 2px;
+    }
+
+
+    .box p{
+        padding-right: 2em;  
+    } 
+
+
+    iframe{
+        width: 100%;
+        height: 600px;
+    }
+
+
+    .boxes .box{
+        margin-left: 0px;
+    }
+
+
+
+    .boxes .box img{
+        width:200px;
+    } 
+
+
+    footer{
+        padding:30px;
+    }
+
+
+    .footer_container1{
+       display: inline-block;  
+    }
+
+
+    .footer_container2{
+        display: inline-block;
+    } 
+
+
+    .footer_container1,.footer_container2{
+        float: none;
+    }
+
+
+    #footer_container2{
+        margin-top: 20px
+    }  
+
+
+    footer div ul li{
+        display: inline-block;
+    }
+
+
+    footer div {
+        display: block;  
+    }
+
+
+    .foottext{
+        clear: both;
+    }
+    
+}
+
+
+/* Media Queries Medium*/
+@media(max-width: 1100px){
+    
+      header #logo,
+      header nav,
+      header nav li,
+      .pageheader h1,
+      .boxes .box,
+      article#main-col, 
+      article#main-col strong,
+      aside.sidebar,h2, h3, h1, .pageTitle{
+        float:none;
+        text-align:center;
+        width:100%;
+    }
+
+
+    .boxes .box{
+        margin-left: 0px;
+    }
+
+
+    .mood{
+        width: 90%;
+    }
+
+
+    h2{
+        padding-left: 0;
+    }
+
+
+    .infoText{
+        text-align: left; 
+    }
+
+
+    .page-title{
+        padding-left: 0;
+    }
+
+
+    header{
+        padding-bottom:20px;
+    }
+
+    header img{
+        width: 250px;
+        float: none;
+    }
+
+
+    nav a{
+    text-align:center;
+        width:10%;
+    }
+
+
+    #searchbar .container .search{
+        float: none;
+    }
+
+
+    iframe{
+        height: 600px;
+        width: 100%;
+        
+    }
+
+    .box{
+            margin: 5px;
+        padding-bottom: 2px;
+    }
+
+    .box p{
+            padding-right: 2em;
+
+    }
+
+    #searchbar .container div.search{
+       text-align: center;
+
+    }
+}
+
+@media(max-width: 642px){
+
+    nav a{
+        text-align:center;
+        width:10%;
+        float:none;
+    }
+
+
+    header img{
+        height: 80px;     
+    }
+
+
+    footer img{
+        display: block;
+    }
+    
+    iframe{
+        height: 350px;
+        
+        min-width: 500px;
+    }
+
+    .footer_container1{
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    footer div ul li{
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .footer_container2{
+        display: block;
+        margin-bottom: 20px;
+    }  
+
+    .box{
+        padding-bottom: 2px;
+    }
+
+
+    #left{
+        float: none;
+        width: 50%;
+    }
+}
