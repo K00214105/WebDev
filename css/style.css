@@ -483,6 +483,7 @@ footer div {
 
     #left{
         float: none;
-        width: 50%;
+        width: 80%;
+        padding: 0;
     }
 }
